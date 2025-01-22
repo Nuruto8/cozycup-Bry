@@ -48,30 +48,44 @@ nav a:hover {
 }
 
 .hero {
-    text-align: center;
-    padding: 150px 0;
-    background-image: url('hero-bg.jpg');
+    height: 30vh;
+    width: 100%;
+    text-align: right;
+    padding: 200px 0;
+    background-image: url('../img/background.jpg');
+    background-position: top;
     background-size: cover;
     color: white;
 }
 
 .hero h1 {
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
 .hero p {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 40px;
+    line-height: 0.5rem;
+}
+.hero-div{
+    display: inline-flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
 
 .cta-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 40px;
     background-color: #4c3c32;
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    
 }
 
 .cta-button:hover {
